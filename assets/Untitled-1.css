@@ -1,110 +1,116 @@
-    * {
-        box-sizing: border-box;
-    }
-    
+* {
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
     body {
-        margin: 0;
-        font-family: "Montserrat", sans-serif;
+        width: 100%;
     }
-    
-    .name {
-        padding: 50px;
-        text-align: center;
-        background: black;
-        color: white;
-    }
-    
-    .name h1 {
-        font-size: 80px;
-        font-variant-caps: small-caps;
-        font-style: italic;
-    }
-    
-    .menu {
-        overflow: hidden;
-        background-color: grey;
-    }
-    
-    .menu p {
-        text-align: center;
-        padding-left: 23%;
-        font-variant-caps: small-caps;
-        font-style: italic;
-        font-style: bold;
-        color: white;
-        font-size: 25px;
-    }
-    
-    .menu a {
-        float: left;
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 30px 20px;
-        text-decoration: underline;
-    }
-    
-    .menu a:hover {
-        background-color: white;
-        color: black;
-    }
-    
-    .info {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    .info h2 {
-        text-align: center;
-    }
-    
-    .side {
-        flex: 30%;
-        background-color: white;
-        padding: 20px;
-    }
-    
-    .main {
-        display: flex;
-        flex: 70%;
-        background-color: silver;
-        padding: 20px;
-    }
-    
-    #popup:hover {
-        width: 425px;
-        height: 375px;
-    }
-    
-    .main img {
-        background-color: white;
-        width: 400px;
-        height: 350px;
-        margin: 10px;
-    }
-    
-    footer {
-        padding: 50px;
-        text-align: center;
-        background: black;
-        color: white;
-    }
-    
-    .footer {
-        padding: 45px;
-        text-align: center;
-    }
-    
-    .footer a {
-        color: white;
-    }
-    
-    #social h3 {
-        text-decoration: underline;
-        font-size: 25px;
-    }
-    
-    #social li {
-        display: inline-block;
-        margin: 0 5px;
-    }
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.name {
+    padding: 50px;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+.name h1 {
+    font-size: 80px;
+    font-variant-caps: small-caps;
+    font-style: italic;
+}
+
+.menu {
+    overflow: hidden;
+    background-color: grey;
+}
+
+.menu p {
+    text-align: center;
+    padding-left: 23%;
+    font-variant-caps: small-caps;
+    font-style: italic;
+    font-style: bold;
+    color: white;
+    font-size: 25px;
+}
+
+.menu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: underline;
+}
+
+.menu a:hover {
+    background-color: white;
+    color: black;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info h2 {
+    text-align: center;
+}
+
+.side {
+    flex: 30%;
+    background-color: white;
+    padding: 20px;
+}
+
+.main {
+    display: flex;
+    flex: 70%;
+    background-color: silver;
+    padding: 20px;
+}
+
+#popup:hover {
+    width: 425px;
+    height: 375px;
+}
+
+.main img {
+    background-color: white;
+    width: 400px;
+    height: 350px;
+    margin: 10px;
+}
+
+footer {
+    padding: 50px;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+.footer {
+    padding: 45px;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+}
+
+#social h3 {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+#social li {
+    display: inline-block;
+    margin: 0 5px;
+}
