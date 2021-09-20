@@ -1,19 +1,30 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 400px) {
     body {
-        width: 100%;
+        width;
+        100%
+    }
+    .name {
+        padding: 50px;
+        text-align: center;
+        background: black;
+        color: white;
     }
 }
 
 body {
     margin: auto;
     font-family: "Montserrat", sans-serif;
+    width: auto;
 }
 
 .name {
+    width: auto;
     padding: 50px;
     text-align: center;
     background: black;
@@ -21,6 +32,7 @@ body {
 }
 
 .name h1 {
+    width: auto;
     font-size: 80px;
     font-variant-caps: small-caps;
     font-style: italic;
