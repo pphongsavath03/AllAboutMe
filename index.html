@@ -8,18 +8,13 @@
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/b4fe2caaa9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href=".\assets\Untitled-1.css">
 
 </head>
 
-<body>
-
-    <section class="hero is-primary top">
-        <div class="hero-body name">
-            <h1>Phon Phongsavath</h1>
-        </div>
-    </section>
+<body class="is-mobile">
 
 
     <section class="hero">
@@ -33,81 +28,140 @@
             </div>
 
             <div id="navbarBasicExample" class="navbar-menu">
-                <div class="navbar-start">
-                    <a class="navbar-item" href="#top">
-                        Home
-                    </a>
+                <div class="navbar-start pl-5">
 
-                    <a class="navbar-item" href="#abtme">
-                        About Me
-                    </a>
+                    <a class="navbar-item" href="./index.html">Home</a>
+                    <a class="navbar-item" href="#abtme">About Me</a>
+                    <a class="navbar-item" href="#social">Contacts</a>
+                    <a class="navbar-item" href="#work">Recent Projects</a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Projects</a>
 
-                    <a class="navbar-item" href="#social">
-                        Contacts
-                    </a>
-                    <a class="navbar-item">
-                        Profolio
-                    </a>
-
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item">JCPG MarketPlace</a>
+                            <a class="navbar-item">Daily Planner</a>
+                            <a class="navbar-item">Javascript Quiz</a>
+                            <a class="navbar-item">Weather Dashboard</a>
+                            <a class="navbar-item">Horiseon</a>
+                            <a class="navbar-item">Grumpy Cat</a>
+                            <a class="navbar-item">Bruno Mars Fanpage</a>
+                            <a class="navbar-item">Pre-work Assignment</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
+    </section>
 
-        <div class="info">
+    <section class="hero is-primary top">
+        <div class="hero-body name">
+            <h1>Phon Phongsavath</h1>
+        </div>
+    </section>
+
+    <section>
+        <div class="info has-text-black">
             <div class="side">
-                <h2>About Me</h2>
+                <h2 class="is-size-3">About Me:</h2>
                 <figure class="image is-1by1">
                     <img title="My Avatar" src="https://media-exp1.licdn.com/dms/image/C4D03AQFRizy6fV4wLQ/profile-displayphoto-shrink_800_800/0/1631494613939?e=1637798400&v=beta&t=lOGeIwN215dOR9UAV86u9oZVvHJJ-QvSVYT0CFFf4sU" alt="MyPhoto" width="300px" height="250px">
                 </figure>
 
-                <p class="column is-two-quarter indent pt-6">My name is Phon Phongsavath. I live in Columbus, Ohio, with my wife, Kyla, and three children, Audrey, Mia, and, Emery. </p>
+                <p class="column is-two-quarter indent pt-6"> My name is Phon Phongsavath. I live in Columbus, Ohio, with my wife, Kyla, and three children, Audrey, Mia, and, Emery. </p>
                 <p class="column is-two-quarter indent">I am currently attending The Ohio State University to become a web developer.</p>
                 <p class="column is-two-quarter indent">While attending school, I have been working as a Personal Banker with U.S Bank for five years.</p>
                 <br>
                 <br>
                 <br>
-                <h2 id="work" class="">Work Experience</h2>
-                <p class="column is-two-quarter indent pt-6">I am currently a Client Relationship Consultant with US Bank. I have been in the position for five years. Some of the duties that I perform include financial guidance for the customers</p>
+                <h2 class="is-size-3 is-underlined has-text-centered">Work Experience</h2>
+                <p class="column is-two-quarter indent pt-6"> I am currently a Client Relationship Consultant with US Bank. I have been in the position for five years. Some of the duties that I perform include financial guidance for the customers</p>
                 <p class="column is-two-quarter indent">Before I worked at US Bank, I was a Telecommunications Sales Consultant with Wireless Vision, where I held the position for two years.</p>
                 <p class="column is-two-quarter indent">I also worked at Progressive Medical as an Insurance Adjustor for Liberty Mutual.</p>
             </div>
-
-            <div class="main">
-                <div class="columns">
+            <div class="pl-6 main is-flex-direction-row" id="abtme">
+                <div class="hero-body has-text-black">
+                    <p class="title has-text-centered is-black is-underlined" id="work">
+                        Recent Projects
+                    </p>
+                </div>
+                <div class="column">
                     <figure id="abtme">
-                        <a href="https://pphongsavath03.github.io/osu-pphongsavath/homework1/Develop/index.html"><img id="popup" title="Horiseon (html + Css)" src=".\assets\horiseon1.jpg " alt="Horiseon"></a>
-                        <a href="https://pphongsavath03.github.io/websites/GrumpyCat.html"><img id="popup" title="Grumpy Cat (html + css)" src=".\assets\grumpy.jpg" alt="GrumpyCat"></a>
-                        <a href="https://pphongsavath03.github.io/websites/fanpage.html"><img id="popup" title="Bruno Mars Fanpage (html)" src=".\assets\bruno.jpg" alt="BrunoMars"></a>
-                        <a href="https://pphongsavath03.github.io/prework-about-me/"><img id="popup" title="First PreWork Assignment (html + css)" src=".\assets\firstabout.jpg" alt="FirstHTML"></a>
+                        <a class="image is-3by1" href="https://pphongsavath03.github.io/JCPGMarketWatch/stockticker.html"><img id="popup" title="JCPG MarketWatch" src=".\assets\jcpg.jpg" alt="JCPGMarketWatch"></a>
+                        <h6 class="title is-6 has-text-black is-centered">JCPG MarketWatch -
+                            <a href="https://github.com/pphongsavath03/JCPGMarketWatch">
+                                <span class="icon is-small is-primary">
+                                <i class="fab fa-github-square" aria-hidden="true"></i>
+                            </span>
+                                <span class="is-primary"> Github repo</span></a>
+                        </h6>
+                        <a class="image is-3by1" href="https://pphongsavath03.github.io/day_planner/index.html"><img id="popup" title="Daily Planner" src=".\assets\daily.jpg " alt="Daily Planner"></a>
+                        <h6 class="title is-6">Daily Planner -
+                            <a href="https://github.com/pphongsavath03/day_planner">
+                                <span class="icon is-small is-primary">
+                                    <i class="fab fa-github-square" aria-hidden="true"></i>
+                                </span>
+                                <span class="is-primary"> Github repo</span></a>
+                        </h6>
+                        <a class="image is-3by1" href="https://pphongsavath03.github.io/quiz/index.html"><img id="popup" title="Javascript Quiz" src=".\assets\quiz.jpg " alt="Javascript Quiz"></a>
+                        <h6 class="title is-6">Javascript Quiz -
+                            <a href="https://github.com/pphongsavath03/quiz">
+                                <span class="icon is-small is-primary">
+                                    <i class="fab fa-github-square" aria-hidden="true"></i>
+                                </span>
+                                <span class="is-primary"> Github repo</span></a>
+                        </h6>
+                        <a class="image is-3by1" href="https://pphongsavath03.github.io/weather_dashboard/index.html"><img id="popup" title="Weather Dashboard" src=".\assets\weather.jpg " alt="weather Dashboard"></a>
+                        <h6 class="title is-6">Weather Dashboard -
+                            <a href="https://github.com/pphongsavath03/weather_dashboard">
+                                <span class="icon is-small is-primary">
+                                    <i class="fab fa-github-square" aria-hidden="true"></i>
+                                </span>
+                                <span class="is-primary"> Github repo</span></a>
+                        </h6>
                     </figure>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="footer hero is-primary">
-        <div>
-            <ul id="social">
-                <h3>Contacts</h3>
+    <footer class="footer hero is-black">
+
+        <div id="social">
+            <p class="title is-centered is-size-5 has-text-weight-light">Contacts</p>
+        </div>
+
+        <nav class="breadcrumb is-centered" aria-label="breadcrumbs">
+            <ul>
                 <li>
-                    <a href="https://github.com/pphongsavath03 ">Github</a>
+                    <a href="https://github.com/pphongsavath03">
+                        <span class="icon is-primary">
+                                    <i class="fab fa-github-square" aria-hidden="true"></i>
+                                </span>
+                        <span class="is-primary">Github</span>
+                    </a>
                 </li>
                 <li>
-                    <a href="mailto:pphongsavath03@gmail.com ">Email</a>
+                    <a href="https://www.linkedin.com/in/pphongsavath03/">
+                        <span class="icon is-primary">
+                                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                </span>
+                        <span class="is-primary">LinkedIn</span>
+                    </a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com">Facebook</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/pphongsavath03/ ">LinkedIn</a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com">Instagram</a>
+                    <a href="mailto:pphongsavath03@gmail.com">
+                        <span class="icon is-small">
+                                <i class="fas fa-envelope-open-text"aria-hidden="true"></i>
+                              </span>
+                        <span>Gmail</span>
+                    </a>
                 </li>
             </ul>
-        </div>
+        </nav>
     </footer>
 
 </body>
+
+<script src="./assets/script.js"></script>
 
 </html>
